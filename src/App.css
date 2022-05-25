@@ -58,8 +58,36 @@ h2 {
 }
 .container {
    max-width: 900px;
-   padding-left: 2rem;
-   padding-right: 2rem;
-   margin: 0 auto;
+   margin:30px  auto;
+   text-align: center;
+}
+
+input, button {
+  font-size: 1em;
+  padding: 1px;
+  font-family: "Space Mono", monospace;
+}
+button {
+padding: 1px 10px;
+margin-left: 12px;
+}
+ul {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+li {
+  padding: 5px;
+  margin-top: 10px;
+  display: flex;
+  justify-content: center;align-items: center;
+}
+span {
+  padding-left: 1em;
  
+}
+.delete {
+    color: red;
+   cursor: pointer;
 }
