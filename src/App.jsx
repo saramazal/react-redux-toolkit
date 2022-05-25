@@ -1,5 +1,6 @@
 import { useState } from 'react';
 import TodoList from './components/TodoList'
+import InputField from './components/InputField'
 import './App.css';
 
 function App() {
@@ -42,10 +43,10 @@ const removeTodo = (todoId) => {
 
 return (
   <div className='input-todo container'>
-    <label>
-      <input value={text} onChange={(e) => setText(e.target.value)} />
-      <button onClick={addTodo}>Add Todo</button> 
-    </label>
+   <InputField
+   text={text}
+   handleInput={setText}
+   handleSubmit={addTodo} />
 
    <TodoList 
      todos={todos}
