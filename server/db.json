@@ -3,14 +3,30 @@
     {
       "id": 1,
       "name": "Milk"
-      },
-      {
+    },
+    {
       "id": 2,
       "name": "Bananas"
-      },
-      {
-        "id": 3,
-        "name": "Icecream"
-        }
+    },
+    {
+      "id": 3,
+      "name": "Icecream"
+    },
+    {
+      "name": "Solt",
+      "id": 4
+    },
+    {
+      "name": "Bread",
+      "id": 5
+    },
+    {
+      "name": "Wine",
+      "id": 6
+    },
+    {
+      "name": "Candy",
+      "id": 7
+    }
   ]
 }
