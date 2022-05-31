@@ -2,7 +2,7 @@
   "goods": [
     {
       "id": 1,
-      "name": "Milk"
+      "name": "Bread"
     },
     {
       "id": 2,
@@ -14,31 +14,31 @@
     },
     {
       "id": 4,
-      "name": "Bananas"
+      "name": "Wine"
     },
     {
       "id": 5,
-      "name": "Bananas"
+      "name": "Olive oil"
     },
     {
       "id": 6,
-      "name": "Bananas"
+      "name": "Mango"
     },
     {
       "id": 7,
-      "name": "Bananas"
+      "name": "Chocolate"
     },
     {
       "id": 8,
-      "name": "Bananas"
+      "name": "Fish"
     },
     {
       "id": 9,
-      "name": "Bananas"
+      "name": "Meat"
     },
     {
       "id": 10,
-      "name": "Bananas"
-    },
+      "name": "Grapes"
+    }
   ]
 }
